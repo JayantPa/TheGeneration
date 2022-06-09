@@ -1,0 +1,66 @@
+body{
+	background-color: white;
+  background-image: url("mic.JPG");
+  background-size: 1600px ;
+    
+}
+h1{
+
+	font-family: Comic Sans MS;
+	font-weight: bolder;
+	font-size: 65px;
+
+}
+.fa-guitar {
+
+	font-size: 90px;
+	
+
+
+}
+.D{
+	text-align: center;
+	color: white;
+  
+}
+.joshan{
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	right: 0px;
+	left: 90px;
+	bottom: 0;
+	
+	width: 4200px;
+	height: 150px;
+
+   color: red;
+  text-shadow: 2px 2px 4px red;
+}
+
+div {
+  width: 120px;
+  height: 50px;
+ 
+  font-weight: bold;
+  position: relative;
+  animation: mymove 2s ;
+
+  }
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-size: 6px;
+   font-style: italic;
+   text-shadow: 1px 0 1px red;
+}
+
+  @keyframes mymove {
+  from {left: -900px;}
+  to {left: 90px;
+  }
